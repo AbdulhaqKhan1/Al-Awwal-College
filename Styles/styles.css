@@ -1,0 +1,277 @@
+@font-face {
+    font-family: "Sora";
+    src: url('../fonts/Sora-Bold.ttf') format("truetype");
+    font-style: normal;
+  }
+
+.nav-section{
+    background: green;
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    margin: -0.5em -0.5em 0em -0.5em;
+    justify-content: space-between;
+    font-family: "Sora", "serif";
+}
+
+body{
+  font-family: "Sora", "serif";
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    padding-top: -1em;
+    margin-left: 3em;
+    padding: 0.3em 0em 0.3em 0em;
+    font-weight: 900;
+    font-family: "Sora", "serif";
+}
+
+.logo{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+
+.school-name{
+    color: white;
+    font-size: 1.5em;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    margin-right: 3em;
+    font-size: 1.3em;
+    font-weight: 100;
+    font-family: "Sora", "serif";
+}
+
+.pages-link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.pages-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.pages-link:hover {
+    color: white;
+    text-shadow: 0 0 8px white;
+}
+
+.pages-link:hover::after {
+    width: 100%;
+}
+
+.hero{
+    background-image: url("../images/schoolbg.jpg");
+    background-size: cover;
+    margin-left: -1em;
+    margin-right: -7.5px;
+    height: 17.3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: "Sora", "serif";
+}
+
+.address-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.address-text{
+    width: 20em;
+    line-height: 1.5em;
+}
+
+.banner{
+    width: 20em;
+    font-weight: 100;
+} 
+
+.motto{
+    margin-left: 2em;
+    width: 15em;
+}
+
+.hero-text{
+    margin-top: 4em;
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+
+.heroHeader{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.hero-img{
+    margin-right: 1em;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    box-shadow: 5px 5px 5px white;
+}
+
+.footer{
+    background: green;
+    height: 5em;
+    margin-right: -0.5em;
+    margin-left: -0.5em;
+    margin-top: -1em;
+    font-size: 1em;
+    height: 5em;
+    color: white;
+    margin-bottom: -1em;
+}
+
+.footer-text{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.owner{
+    border-radius: 50%;
+    height: 15em;
+    width: 15em;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: -1em;
+}
+
+.owner-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.owner-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.owner-talk{
+    line-height: 2.5em;
+    text-align: center;
+    width: 95vw;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.protocols-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    line-height: 2em;
+    margin-bottom: 4em;
+}
+
+.protocols-container0{
+    width: 20em;
+    height: 15em;
+    text-align: center;
+    box-shadow: 0.2px 0.2px 0.2em 0.2px black;
+
+}
+
+.protocols-container1{
+    width: 20em;
+    height: 15em;
+    text-align: center;
+    box-shadow: 0.2px 0.2px 0.2em 0.2px black;
+}
+
+.protocols-container2{
+    width: 20em;
+    height: 15em;
+    text-align: center;
+    box-shadow: 0.2px 0.2px 0.2em 0.2px black;
+}
+
+.text-width{
+    width: 18em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.biography{
+    text-align: center;
+}
+
+.what-we-offer{
+    margin-left: 3em;
+    margin-bottom: 3em;
+}
+
+.science-img{
+    width: 20.1em;
+    height: 15em;
+    object-fit: cover;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.enroll{
+    text-align: center;
+    margin-top: 5em;
+}
+
+.abt{
+    width: 75vw;
+    display: flex;
+    margin: 0 auto;
+    line-height: 2em;
+    text-align: center;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 3em;
+    line-height: 2em;
+    margin-bottom: 4em;
+    width: 40em;
+}
+
+.icons{
+    background: white;
+    padding: 0.3em;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0.2px 0.2px 0.2em 0.2px black;
+    gap: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.icon-0{
+    text-decoration: none;
+    color: black;
+}
