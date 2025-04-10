@@ -4,6 +4,46 @@
     font-style: normal;
   }
 
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .hero {
+      padding: 20px;
+    }
+  
+    /* Adjust fonts, images, buttons, etc. */
+  }
+
+  @media (max-width: 480px) {
+    /* Styles for very small phones */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  html {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  
+
 .nav-section{
     background: green;
     display: flex;
