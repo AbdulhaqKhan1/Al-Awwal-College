@@ -5,21 +5,32 @@
   }
 
 @media (max-width: 769px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
     body{
         padding: 0%;
     }
 
+    body, html {
+        margin: 0;
+        padding: 0;
+      }
+
     .nav-section{
         font-size: 5.5px;
         max-height: 90px;
-        max-width: 769px;
-        padding-left: -20px;
+        max-width: 362.5px;
+        padding-top: 4px;
     }
 
     .hero{
         background-image: url("../images/schoolbg.jpg");
         background-size: cover;
-        width: 384px;
+        width: 392px;
         max-height: 300px;
     }
 
@@ -49,14 +60,24 @@
         margin-bottom: 4em;
     }
 
-    .footer{
-        max-width: 360px;
-        font-size: 2px;
+    .footer {
+        max-width: 368px; /* Prevent unnecessary spacing */
+        font-size: 14px; /* Use a readable size */
+        margin: 0;
+        padding: 10px 15px; /* Adjust as needed */
+        background-color: #fff; /* Optional, just for clarity */
+        box-sizing: border-box;
     }
+
+        .footer {
+          font-size: 12px;
+          padding: 8px;
+        }
 
     .banner{
         max-width: 380px;
         font-size: 20px;
+        padding-left: 10px;
     }
 
     .motto{
@@ -201,6 +222,47 @@ body{
     box-shadow: 5px 5px 5px white;
 }
 
+.name{
+    font-size: 1.3em;
+}
+
+.first-section{
+    margin-left: 8em;
+    padding-top: 0.3em;
+}
+
+.second-section{
+    margin-right: 8em;
+    padding-top: 0.3em;
+}
+
+.design{
+    /* background: red; */
+    width: 30em;
+    padding-left: 20em;
+    margin-top: 3.5em;
+    height: 2em;
+}
+
+.border-line{
+    border-bottom: 0.6px solid white;
+  }
+
+.other{
+    font-size: 1em;
+}
+
+.footer-main{
+    display: flex;
+}
+
+.sections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer{
     background: green;
     height: 5em;
@@ -208,14 +270,9 @@ body{
     margin-left: -0.5em;
     margin-top: -1em;
     font-size: 1em;
-    height: 5em;
+    height: 21em;
     color: white;
-    margin-bottom: -1em;
-}
-
-.footer-text{
-    padding-left: 1em;
-    padding-top: 1em;
+    margin-bottom: -10em;
 }
 
 .owner{
