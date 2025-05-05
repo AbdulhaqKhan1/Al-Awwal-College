@@ -61,18 +61,28 @@
     }
 
     .footer {
-        max-width: 368px; /* Prevent unnecessary spacing */
-        font-size: 14px; /* Use a readable size */
+        max-width: 368px;
+        font-size: 14px;
         margin: 0;
-        padding: 10px 15px; /* Adjust as needed */
-        background-color: #fff; /* Optional, just for clarity */
         box-sizing: border-box;
     }
 
-        .footer {
-          font-size: 12px;
-          padding: 8px;
-        }
+    .footer {
+    font-size: 12px;
+    padding: 8px;
+    }
+
+    .sections{
+        max-width: 100px;
+    }
+
+    .design{
+        width: 50px;
+    }
+
+    .owner-header{
+        margin-bottom: 1em;
+    }
 
     .banner{
         max-width: 380px;
@@ -398,4 +408,63 @@ body{
 .icon-0{
     text-decoration: none;
     color: black;
+}
+
+.school-section{
+    margin-bottom: 2em;
+    margin-left: 2.6em;
+}
+
+.classes{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 5em;
+    margin-left: 5em;
+}
+
+.male{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 5em;
+    margin-left: 5em;
+}
+
+.female{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 5em;
+    margin-right: 5em;
+}
+
+.names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divider{
+    background: green;
+    width: 0.3em;
+    height: 41em;
+    border-radius: 5px;
+}
+
+.divider-ss2{
+    background: green;
+    width: 0.3em;
+    height: 32em;
+    border-radius: 5px;
+}
+
+.class{
+    text-decoration: none;
+    color: white;
+    background: green;
+    border-radius: 20px;
+    padding: 0.5em;
+    text-align: center;
+    width: 20em;
 }
