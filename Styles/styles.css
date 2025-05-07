@@ -459,6 +459,20 @@ body{
     border-radius: 5px;
 }
 
+.divider-jss3{
+    background: green;
+    width: 0.3em;
+    height: 45em;
+    border-radius: 5px;   
+}
+
+.divider-jss2{
+    background: green;
+    width: 0.3em;
+    height: 32.5em;
+    border-radius: 5px;   
+}
+
 .class{
     text-decoration: none;
     color: white;
