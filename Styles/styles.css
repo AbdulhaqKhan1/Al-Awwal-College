@@ -248,8 +248,8 @@ body{
 
 .design{
     /* background: red; */
-    width: 30em;
-    padding-left: 20em;
+    width: 40em;
+    padding-left: 30em;
     margin-top: 3.5em;
     height: 2em;
 }
@@ -329,7 +329,6 @@ body{
     height: 15em;
     text-align: center;
     box-shadow: 0.2px 0.2px 0.2em 0.2px black;
-
 }
 
 .protocols-container1{
