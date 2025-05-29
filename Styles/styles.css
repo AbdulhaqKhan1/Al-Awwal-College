@@ -61,7 +61,7 @@
     }
 
     .footer {
-        /* max-width: 368px; */
+        max-width: 368px;
         font-size: 4px;
         margin: 0;
         box-sizing: border-box;
@@ -72,6 +72,10 @@
         width: 50px;
         gap: px;
     } */
+
+    .name{
+        font-size: 2px;
+    }
 
     .other{
         font-size: 4px;
@@ -86,17 +90,17 @@
     }
 
     .second-section{
-        background: red;
         width: 50px;
     }
 
     .design{
-        color: blue;
         margin-right: 6000px;
-        background: red;
         padding-left: 1000px;
         width: 100px;
         font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .icons{
