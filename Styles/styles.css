@@ -61,23 +61,35 @@
     }
 
     .footer {
-        max-width: 368px;
-        font-size: 14px;
+        /* max-width: 368px; */
+        font-size: 4px;
         margin: 0;
         box-sizing: border-box;
+        padding: 8px;
     }
 
-    .footer {
-    font-size: 12px;
-    padding: 8px;
+    .footer-main{
+        background: yellow;
+        width: 50px;
+        gap: 30px;
+    }
+
+    .other{
+        font-size: 4px;
     }
 
     .sections{
         max-width: 100px;
     }
 
-    .design{
+    .second-section{
+        background: red;
         width: 50px;
+    }
+
+    .design{
+        color: blue;
+        margin-right: 500px;
     }
 
     .owner-header{
@@ -107,7 +119,10 @@
     background: green;
     display: flex;
     flex-direction: row;
-    margin: -0.5em -0.5em 0em -0.5em;
+    margin-top: -0.5em;
+    margin-right: -0.5em;
+    margin-bottom: 3em;
+    margin-left: -0.5em;
     justify-content: space-between;
     font-family: "Sora", "serif";
 }
@@ -195,6 +210,7 @@ body{
     background-size: cover;
     margin-left: -1em;
     margin-right: -7.5px;
+    margin-top: -1.5em;
     height: 17.3em;
     display: flex;
     justify-content: center;
@@ -213,6 +229,10 @@ body{
 .address-text{
     width: 20em;
     line-height: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
 }
 
 .banner{
@@ -334,7 +354,7 @@ body{
     align-items: center;
     gap: 4em;
     line-height: 2em;
-    margin-bottom: 4em;
+    margin-bottom: 12em;
 }
 
 .protocols-container0{
@@ -427,6 +447,7 @@ body{
 
 .school-section{
     margin-bottom: 2em;
+    margin-top: 1.5em;
     margin-left: 2.6em;
 }
 
@@ -470,7 +491,7 @@ body{
 .divider-ss2{
     background: green;
     width: 0.3em;
-    height: 32em;
+    height: 28em;
     border-radius: 5px;
 }
 
@@ -496,4 +517,51 @@ body{
     padding: 0.5em;
     text-align: center;
     width: 20em;
+}
+
+.back{
+    background: green;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 9em;
+    font-size: 1em;
+    margin-left: 5.2em;
+    text-decoration: none;
+    margin-bottom: 4em;
+}
+
+.map{
+    border-radius: 20px;
+    margin-bottom: 4em;
+    width:40em;
+    margin-right: 2em;
+}
+
+.locked{
+    background: green;
+    color: white;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 18em;
+}
+
+.back-ss3{
+    background: green;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1em;
+    margin-left: 5.2em;
+    text-decoration: none;
+    /* margin-bottom: em; */
+}
+
+.lock-btn{
+    padding: 1em;
+    margin-top: 3em;
 }
