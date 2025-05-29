@@ -68,13 +68,16 @@
         padding: 8px;
     }
 
-    .footer-main{
-        background: yellow;
+    /* .footer-main{
         width: 50px;
-        gap: 30px;
-    }
+        gap: px;
+    } */
 
     .other{
+        font-size: 4px;
+    }
+
+    .other-1{
         font-size: 4px;
     }
 
@@ -89,7 +92,15 @@
 
     .design{
         color: blue;
-        margin-right: 500px;
+        margin-right: 6000px;
+        background: red;
+        padding-left: 1000px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .icons{
+        font-size: 10px;
     }
 
     .owner-header{
@@ -292,6 +303,10 @@ body{
   }
 
 .other{
+    font-size: 1em;
+}
+
+.other-1{
     font-size: 1em;
 }
 
