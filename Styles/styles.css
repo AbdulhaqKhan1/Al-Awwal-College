@@ -376,6 +376,17 @@ body{
     margin-bottom: 12em;
 }
 
+.protocols-container-gallery {
+  display: grid;
+  grid-auto-flow: column;          /* Fill down, then next column */
+  grid-template-columns: repeat(3, auto); /* 3 images per column */
+  gap: 5em;                         /* Adjust spacing as needed */
+  justify-content: center;
+  align-items: start;              /* Align to top */
+  margin-bottom: 12em;
+}
+
+
 .protocols-container0{
     width: 20em;
     height: 15em;
