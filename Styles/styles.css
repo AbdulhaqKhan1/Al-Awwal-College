@@ -338,12 +338,15 @@ body{
 }
 
 .owner{
-    border-radius: 50%;
     height: 15em;
     width: 15em;
     display: flex;
     margin: 0 auto;
     margin-bottom: -1em;
+    background: red;
+    color: green;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 .owner-header{
@@ -374,6 +377,7 @@ body{
     gap: 4em;
     line-height: 2em;
     margin-bottom: 12em;
+    object-fit: cover;
 }
 
 .protocols-container-gallery {
@@ -594,4 +598,59 @@ body{
 .lock-btn{
     padding: 1em;
     margin-top: 3em;
+}
+
+.visit{
+    background: green;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    text-decoration: none;
+    width: 3em;
+}
+
+.v-holder{
+    margin-top: 2em;
+}
+
+.science-img1{
+    width: 25em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.science-img2{
+    width: 25em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.science-img3{
+    width: 25em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.all-img{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-head{
+    display: flex;
+    justify-content: center;
+}
+
+.what-is{
+    display: flex;
+    justify-content: center;
+}
+
+.it-is{
+    width: 70em;
+    margin-left: 2em;
 }
