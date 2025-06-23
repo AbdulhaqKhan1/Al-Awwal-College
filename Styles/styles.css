@@ -36,8 +36,13 @@
         max-height: 300px;
     }
 
+    .back{
+        font-size: 5px;
+        margin-top: 2em;
+    }
+
     .owner-header{
-        font-size: 20px;
+        /* font-size: 20px; */
         text-align: center;
     }
 
@@ -50,6 +55,11 @@
         font-size: 15px;
         line-height: 1.5px;
         max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .biography{
+        margin-bottom: 40px;
     }
 
     .protocols-container{
@@ -60,6 +70,14 @@
         gap: 4em;
         line-height: 2em;
         margin-bottom: 4em;
+    }
+
+    .protocols-container0{
+        margin-bottom: 80px;
+    }
+
+    .protocols-container1{
+        margin-bottom: 80px;
     }
 
     .footer {
@@ -77,6 +95,12 @@
 
     .name{
         font-size: 2px;
+    }
+
+    .names{
+        font-size: 2px;
+        display: flex;
+        flex-direction: row;
     }
 
     .other{
@@ -131,18 +155,28 @@
         margin-bottom: -50px;
     }
 
+    .logo{
+        object-fit: cover;
+    }
+
+
+    .report-cont{
+        max-width: 300px;
+    }
+
     .address-text{
         font-size: 10px;
+        background-color: blue;
     }
 
     .map{
         width: 10px;
-        height: 20px;
+        height: 100px;
     }
 
     .address-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .school-section{
@@ -164,6 +198,91 @@
         display: flex;
         gap: 10px;
     }
+
+    /* Default Desktop Styles */
+.names {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.male, .female {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.divider {
+  width: 2px;
+  background-color: black;
+}
+
+  .names {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .male, .female {
+    width: 100%;
+    align-items: center;
+  }
+
+  .class {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  .class:hover {
+    background-color: #ddd;
+  }
+
+  .what-is{
+    margin-top: 90px;
+  }
+
+  .it-is{
+    margin-top: 30px;
+    max-width: 300px;
+    line-height: 25px;
+  }
+
+  .sub-head{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .science-subjects{
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .all-img{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .science-img1, .science-img2, .science-img3 {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
 }
 
 .nav-section{
