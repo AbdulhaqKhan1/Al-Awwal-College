@@ -30,7 +30,6 @@
 
     .hero{
         /* background-image: url("../images/schoolbg.jpg"); */
-        background: red;
         background-size: cover;
         width: 392px;
         max-height: 300px;
@@ -164,11 +163,6 @@
         max-width: 300px;
     }
 
-    .address-text{
-        font-size: 10px;
-        background-color: blue;
-    }
-
     .map{
         width: 10px;
         height: 100px;
@@ -278,11 +272,49 @@
     margin-bottom: 30px;
   }
 
-  .science-img1, .science-img2, .science-img3 {
-    width: 100px;
-    height: auto;
-    border-radius: 10px;
+    .science-img1, .science-img2, .science-img3 {
+        max-width: 340px;
+        object-fit: cover;
+        margin-left: -40px;
+    }
+
+  .protocols-container123 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
   }
+
+  .address-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Optional spacing */
+    flex-direction: column;
+}
+
+  .address-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    text-align: center; /* Optional: center text */
+    padding: 10px;
+  }
+
+  .map {
+    width: 100%;
+    height: 600px;
+    max-width: 100%;
+    border: none;
+    border-radius: 8px;
+    margin-left: -10px;
+  }
+
+    .address-text {
+      font-size: 1rem;
+    }
 }
 
 .nav-section{
