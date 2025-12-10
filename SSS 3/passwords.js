@@ -1,55 +1,3 @@
-
-document.addEventListener("DOMContentLoaded", function () {
-    
-    const johnLink = document.getElementById("Yunus");
-    
-    johnLink.addEventListener("click", function (event) {
-        event.preventDefault();
-        const password = prompt ("Enter Password to view Yunus's Result:");
-        
-        if (password === "yunus65") {
-            window.location.href = "Yunus.html";
-        } else {
-            alert("wrong Password!");
-        }
-        
-    })
-})
-
-document.addEventListener("DOMContentLoaded", function () {
-    
-    const johnLink = document.getElementById("Abdullah");
-    
-    johnLink.addEventListener("click", function (event) {
-        event.preventDefault();
-        const password = prompt ("Enter Password to view Abdullah's Result:");
-        
-        if (password === "abdullah.45") {
-            window.location.href = "Abdullah.html";
-        } else {
-            alert("wrong Password!");
-        }
-        
-    })
-})
-
-document.addEventListener("DOMContentLoaded", function () {
-
-    const johnLink = document.getElementById("Abdulwasiu");
-
-    johnLink.addEventListener("click", function (event) {
-        event.preventDefault();
-        const password = prompt ("Enter Password to view Abdulwasiu's Result:");
-
-        if (password === "abdulwasiu10") {
-            window.location.href = "Abdulwasiu.html";
-        } else {
-            alert("wrong Password!");
-        }
-
-    })
-})
-
 document.addEventListener("DOMContentLoaded", function () {
 
     const johnLink = document.getElementById("Ammar");
@@ -205,14 +153,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    const johnLink = document.getElementById("Gbemisoye");
+    const johnLink = document.getElementById("Fauziyah");
 
     johnLink.addEventListener("click", function (event) {
         event.preventDefault();
-        const password = prompt ("Enter Password to view Khadijah's Result:");
+        const password = prompt ("Enter Password to view Fauziyah's Result:");
 
-        if (password === "khadijah456") {
-            window.location.href = "Gbemisoye.html";
+        if (password === "fauziyah754") {
+            window.location.href = "Fauziyah.html";
         } else {
             alert("wrong Password!");
         }
@@ -222,14 +170,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    const johnLink = document.getElementById("Fauziyah");
+    const johnLink = document.getElementById("Fridaous");
 
     johnLink.addEventListener("click", function (event) {
         event.preventDefault();
-        const password = prompt ("Enter Password to view Fauziyah's Result:");
+        const password = prompt ("Enter Password to view Fridaous's Result:");
 
-        if (password === "fauziyah123") {
-            window.location.href = "Fauziyah.html";
+        if (password === "fridaous638") {
+            window.location.href = "Fridaous.html";
         } else {
             alert("wrong Password!");
         }
