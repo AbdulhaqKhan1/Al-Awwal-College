@@ -34,23 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    const johnLink = document.getElementById("Abdulazeem");
-
-    johnLink.addEventListener("click", function (event) {
-        event.preventDefault();
-        const password = prompt ("Enter Password to view Abdulazeem's Result:");
-
-        if (password === "abdulazeem89") {
-            window.location.href = "Abdulazeem.html";
-        } else {
-            alert("wrong Password!");
-        }
-
-    })
-})
-
-document.addEventListener("DOMContentLoaded", function () {
-
     const johnLink = document.getElementById("Abdulsamod");
 
     johnLink.addEventListener("click", function (event) {
@@ -246,6 +229,57 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (password === "balikis54") {
             window.location.href = "Balikis.html";
+        } else {
+            alert("wrong Password!");
+        }
+
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const johnLink = document.getElementById("Abdulsobur");
+
+    johnLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        const password = prompt ("Enter Password to view Balikis's Result:");
+
+        if (password === "Abdulsobur830") {
+            window.location.href = "Abdulsobur.html";
+        } else {
+            alert("wrong Password!");
+        }
+
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const johnLink = document.getElementById("Mubarak");
+
+    johnLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        const password = prompt ("Enter Password to view Mubarak's Result:");
+
+        if (password === "Mubarak463") {
+            window.location.href = "Mubarak.html";
+        } else {
+            alert("wrong Password!");
+        }
+
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const johnLink = document.getElementById("Rumayzoh");
+
+    johnLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        const password = prompt ("Enter Password to view Rumayzoh's Result:");
+
+        if (password === "Rumayzoh638") {
+            window.location.href = "Rumayzoh.html";
         } else {
             alert("wrong Password!");
         }
